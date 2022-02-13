@@ -5,9 +5,14 @@
 
 - Este repositório mostra a implementação do treinamento de uma GAN, utilizando o dataset MNIST, utilizando Wasserstein Loss + Clipping Gradient.  
 
-- Resultado prévio ao longo de 15 épocas:  
+- Resultado ao longo de 30 épocas:  
 
 ![resultado](video.gif)
+
+- Análise dos valores discriminator-loss e generator-loss.  
+![resultado](loss-discriminator.png) ![resultado](loss-generator.png)  
+
+Ambos os valores têm comportamentos de convergência, mostrando que a abordagem Wasserstein-loss com Gradienty-Penalty é muito eficaz na proposta de promover um treinamento estável e com convergência.  
 
 - Variáveis utilizadas no treinamento:  
 

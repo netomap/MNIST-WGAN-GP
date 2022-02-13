@@ -3,3 +3,4 @@ MNIST/
 models/
 __pycache__/
 imgs/
+imgs2/
