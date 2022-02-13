@@ -5,3 +5,20 @@
 
 - Este repositório mostra a implementação do treinamento de uma GAN, utilizando o dataset MNIST, utilizando Wasserstein Loss + Clipping Gradient.  
 
+- Resultado prévio ao longo de 15 épocas:  
+
+![resultado](video.gif)
+
+- Variáveis utilizadas no treinamento:  
+
+```
+CHANNEL_NOISE = 1
+NOISE_DIM = 100
+IMG_CHANNEL = 1
+FEATURES = 16
+BATCH_SIZE = 128
+IMG_SIZE = 64
+LEARNING_RATE = 1e-4
+TAXA_TREINAMENTO_DISCRIMINATOR = 5  # ou seja, o discriminator treina 5 vezes mais que o generator
+LAMBDA_GP = 10 # TAXA DO GRADIENT PENALTY
+```
