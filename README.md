@@ -3,7 +3,7 @@
 
 - Repositório muito bom (**excelente**) utilizado para aprendizado: [https://github.com/aladdinpersson/Machine-Learning-Collection.git](https://github.com/aladdinpersson/Machine-Learning-Collection.git)
 
-- Este repositório mostra a implementação do treinamento de uma GAN, utilizando o dataset MNIST, utilizando Wasserstein Loss + Clipping Gradient.  
+- Este repositório mostra a implementação do treinamento de uma GAN, utilizando o dataset MNIST, utilizando Wasserstein Loss + Gradient Penalty.  
 
 - Resultado ao longo de 30 épocas:  
 
